@@ -1,2 +1,2 @@
-# nn_tensorflow_101
-Neural network basics using Tensorflow
+# Neural Networks with TensorFlow 101
+Neural network basics using Tensorflow.

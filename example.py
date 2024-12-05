@@ -6,6 +6,7 @@ from sklearn.model_selection import train_test_split
 import tensorflow as tf
 
 
+# This decorator indicates that a custom class needs to be serialized
 @tf.keras.utils.register_keras_serializable(package='CustomLayer')
 class CustomLayer(tf.keras.layers.Layer):
     """A custom TensorFlow layer that performs a linear transformation on input data.

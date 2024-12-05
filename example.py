@@ -62,7 +62,6 @@ class CustomLoss(tf.keras.losses.Loss):
             Documented in https://www.tensorflow.org/api_docs/python/tf/keras/losses/Reduction
         name (str): Name of the loss function.
     """
-
     def __init__(self, reduction=tf.keras.losses.Reduction.SUM_OVER_BATCH_SIZE, name='custom_loss'):
         super().__init__(reduction=reduction, name=name)
 

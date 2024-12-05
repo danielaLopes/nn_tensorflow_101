@@ -149,11 +149,6 @@ class CustomOptimizer(tf.keras.optimizers.Optimizer):
         momentum (float): The momentum factor (default: 0.0)
         weight_decay (float, optional): Weight decay factor for regularization
         name (str): Name of the optimizer (default: "CustomOptimizer")
-
-    Attributes:
-        _momentums (list): First moment estimates for each variable
-        _velocities (list): Second moment estimates for each variable
-        _momentum_vars (list): Momentum variables if momentum > 0
     """
     def __init__(
             self,
